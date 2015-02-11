@@ -11,7 +11,7 @@ email = kevin.corcoran@puppetlabs.com
 
 # branch aliases
 current-branch = rev-parse --abbrev-ref HEAD
-compare-with-remote = !sh -c 'ruby ~/.dotfiles/compare_with_remote.rb' -
+compare-with-remote = !sh -c 'ruby ~/bin/compare_with_remote.rb' -
 
 # rebase last n commits
 interactive-rebase = !sh -c 'git rebase -i HEAD~$1' -
