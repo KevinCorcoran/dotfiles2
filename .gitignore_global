@@ -1,0 +1,12 @@
+.idea
+*.iml
+target
+lib_managed
+.DS_Store
+.classpath
+.project
+.settings
+.nrepl-port
+.lein-failures
+.lein-repl-history
+*.swp
