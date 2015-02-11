@@ -20,4 +20,4 @@ execute pathogen#infect()
 filetype plugin indent on
 
 " set color scheme
-color pablo
+color slate
