@@ -69,5 +69,5 @@ editor = /usr/bin/vim
 
 
 [init]
-templatedir = /Users/kevin/.dotfiles/git-hooks
+templatedir = /Users/kevin/.git_template
 
