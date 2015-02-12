@@ -1,3 +1,7 @@
+################################################################################
+# antigen
+################################################################################
+
 source $HOME/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
@@ -17,7 +21,10 @@ antigen theme steeef
 # Tell antigen that you're done.
 antigen apply
 
-### ALIASES
+ 
+################################################################################
+# aliases
+################################################################################
 
 # ls aliases
 alias ll='ls -lh'
@@ -30,5 +37,17 @@ alias l1a='l1 -A'
 alias pretty_json='python -mjson.tool'
 
 
-### ENVIRONMENT VARIABLES
+################################################################################
+# environment variables
+################################################################################
+
 export GREP_OPTIONS="-i -I --color=auto --exclude='*.swp'"
+
+
+################################################################################
+# rbenv
+################################################################################
+# After 'brew install rbenv', I got this:
+# To enable shims and autocompletion add to your profile:
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
