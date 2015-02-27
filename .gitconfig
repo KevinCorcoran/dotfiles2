@@ -19,7 +19,6 @@ interactive-rebase = !sh -c 'git rebase -i HEAD~$1' -
 st = status -sb
 g = grep -i --break --heading --line-number
 amend = commit --amend
-head = log -n1
 word-diff = diff --word-diff=color
 commit-stats = !sh -c 'git diff --stat $1^ $1' -
 ss = !sh -c 'git show stash@{$1}' -
