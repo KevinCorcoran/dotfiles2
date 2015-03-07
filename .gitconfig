@@ -70,3 +70,5 @@ editor = /usr/bin/vim
 [init]
 templatedir = /Users/kevin/.git_template
 
+[credential]
+	helper = osxkeychain
