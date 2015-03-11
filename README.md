@@ -1,4 +1,7 @@
 # Setup
+* setup iTerm (...)
+* set shell to ZSH
+* run this:
 ```Shell
 cd
 
@@ -12,3 +15,5 @@ git checkout --track origin/master
 git submodule init
 git submodule update
 ```
+* close shell
+* open new shell
