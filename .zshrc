@@ -35,6 +35,7 @@ alias l1a='l1 -A'
 
 # random
 alias pretty_json='python -mjson.tool'
+alias be='bundle exec'
 
 
 ################################################################################
