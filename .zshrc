@@ -48,7 +48,6 @@ export GREP_OPTIONS="-i -I --color=auto --exclude='*.swp'"
 ################################################################################
 # rbenv
 ################################################################################
-# After 'brew install rbenv', I got this:
-# To enable shims and autocompletion add to your profile:
+# enable shims and autocompletion
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
