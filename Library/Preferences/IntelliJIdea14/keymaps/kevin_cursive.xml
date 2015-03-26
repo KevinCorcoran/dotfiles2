@@ -131,6 +131,9 @@
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="LEFT" />
   </action>
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="control alt F" />
+  </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="RIGHT" />
   </action>
