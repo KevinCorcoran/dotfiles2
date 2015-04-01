@@ -99,7 +99,7 @@
     <keyboard-shortcut first-keystroke="shift meta M" />
   </action>
   <action id=":cursive.testing.actions/remove-test-markers">
-    <keyboard-shortcut first-keystroke="shift meta BACK_SPACE" />
+    <keyboard-shortcut first-keystroke="control BACK_SPACE" />
   </action>
   <action id=":cursive.testing.actions/rerun-last-test">
     <keyboard-shortcut first-keystroke="meta T" />
@@ -127,6 +127,9 @@
   </action>
   <action id="Compare.Selected">
     <keyboard-shortcut first-keystroke="shift control D" />
+  </action>
+  <action id="CompareClipboardWithSelection">
+    <keyboard-shortcut first-keystroke="control meta alt D" />
   </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="LEFT" />
@@ -164,7 +167,6 @@
   <action id="HighlightUsagesInFile">
     <keyboard-shortcut first-keystroke="shift control U" />
   </action>
-  <action id="JumpToLastChange" />
   <action id="Leiningen.RefreshProjects">
     <keyboard-shortcut first-keystroke="alt P" />
   </action>
