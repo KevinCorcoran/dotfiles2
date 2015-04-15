@@ -15,5 +15,9 @@ set ls=2
 " json syntax highlighting, by tricking vim into thinking it's javascript
 autocmd BufNewFile,BufRead *.json set ft=javascript
 
+" make pathogen work
+execute pathogen#infect()
+filetype plugin indent on
+
 " set color scheme
 color slate
