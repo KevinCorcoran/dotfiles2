@@ -34,12 +34,6 @@
         <option name="ERROR_STRIPE_COLOR" value="bccff9" />
       </value>
     </option>
-    <option name="DOC_COMMENT_TAG_VALUE">
-      <value>
-        <option name="FOREGROUND" value="3d3d3d" />
-        <option name="FONT_TYPE" value="3" />
-      </value>
-    </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -65,36 +59,6 @@
         <option name="EFFECT_COLOR" value="cccccc" />
         <option name="ERROR_STRIPE_COLOR" value="ffffcc" />
         <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="RDOC_DIRECTIVE">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="RDOC_EMAIL">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="RDOC_HEADINGS">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="RDOC_IDENTIFIER">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="RDOC_KEYWORD">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="RDOC_URL">
-      <value>
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
