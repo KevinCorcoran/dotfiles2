@@ -67,5 +67,11 @@ editor = /usr/bin/vim
 [init]
 templatedir = /Users/kevin/.git_template
 
+
+[status]
+showUntrackedFiles = all
+
+
 [credential]
 helper = osxkeychain
+
