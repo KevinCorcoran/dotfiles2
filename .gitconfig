@@ -16,9 +16,11 @@ compare-with-remote = !sh -c 'ruby ~/bin/compare_with_remote.rb' -
 # rebase last n commits
 interactive-rebase = !sh -c 'git rebase -i HEAD~$1' -
 
+
 st = status -sb
 g = grep -i --break --heading --line-number
 amend = commit --amend
+append = commit --amend --CHEAD # auto-fixup!
 word-diff = diff --word-diff=color
 commit-stats = !sh -c 'git diff --stat $1^ $1' -
 ss = !sh -c 'git show stash@{$1}' -
