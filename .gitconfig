@@ -29,6 +29,7 @@ un-commit = !sh -c 'git reset --soft HEAD~$1 && git un-stage'
 
 # This came from https://coderwall.com/p/z5rkga
 checkout-pr = !sh -c 'git fetch upstream refs/pull/$1/head:pull-request-$1 && git checkout pull-request-$1' -
+checkout-pull-request = !sh -c 'git fetch upstream refs/pull/$1/head && git checkout FETCH_HEAD' -
 
 # meta!
 aliases = !sh -c 'git config -l | grep alias --color=never'
