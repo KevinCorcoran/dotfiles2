@@ -1,7 +1,9 @@
 <code_scheme name="kevin">
   <option name="RIGHT_MARGIN" value="80" />
   <ClojureCodeStyleSettings>{
-  :cursive.formatting/align-binding-forms true
+  :cursive.formatting/align-conditionals false
+  :cursive.formatting/align-maps false
+  :cursive.formatting/default-only-indent true
 }</ClojureCodeStyleSettings>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
