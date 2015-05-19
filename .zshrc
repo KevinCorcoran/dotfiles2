@@ -51,3 +51,10 @@ export GREP_OPTIONS="-i -I --color=auto --exclude='*.swp'"
 # enable shims and autocompletion
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
+
+################################################################################
+# ZSH options
+################################################################################
+# Do not share history between open shells - I find it annoying.
+unsetopt share_history
+
