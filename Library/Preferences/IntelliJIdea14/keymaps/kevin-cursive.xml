@@ -3,7 +3,7 @@
     <keyboard-shortcut first-keystroke="alt R" />
   </action>
   <action id=":cursive.actions.paredit/backward">
-    <keyboard-shortcut first-keystroke="control alt B" />
+    <keyboard-shortcut first-keystroke="shift control LEFT" />
   </action>
   <action id=":cursive.actions.paredit/backward-down">
     <keyboard-shortcut first-keystroke="control alt P" />
@@ -27,7 +27,7 @@
     <keyboard-shortcut first-keystroke="shift control K" />
   </action>
   <action id=":cursive.actions.paredit/forward">
-    <keyboard-shortcut first-keystroke="control alt F" />
+    <keyboard-shortcut first-keystroke="shift control RIGHT" />
   </action>
   <action id=":cursive.actions.paredit/forward-down">
     <keyboard-shortcut first-keystroke="control alt D" />
