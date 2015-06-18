@@ -25,7 +25,7 @@ amend = commit --amend
 word-diff = diff --word-diff=color
 commit-stats = !sh -c 'git diff --stat $1^ $1' -
 ss = !sh -c 'git show stash@{$1}' -
-
+fixup = commit --fixup=HEAD
 un-stage = reset HEAD
 un-commit = !sh -c 'git reset --soft HEAD~$1 && git un-stage'
 
@@ -78,3 +78,6 @@ showUntrackedFiles = all
 [credential]
 helper = osxkeychain
 
+
+[rebase]
+autosquash = true
