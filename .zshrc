@@ -10,7 +10,7 @@ antigen use oh-my-zsh
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
 antigen bundle lein # adds command completion
 antigen bundle brew # adds command completion
-antigen bundle vagrant # adds command completion
+antigen bundle z 
 
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
