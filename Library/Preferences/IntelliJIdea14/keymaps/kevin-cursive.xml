@@ -231,6 +231,9 @@
   <action id="Unscramble">
     <keyboard-shortcut first-keystroke="control S" />
   </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="shift control H" />
+  </action>
   <action id="Vcs.UpdateProject" />
   <action id="WelcomeScreen.ReopenRecent">
     <keyboard-shortcut first-keystroke="alt R" />
