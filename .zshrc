@@ -58,3 +58,10 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # Do not share history between open shells - I find it annoying.
 unsetopt share_history
 
+################################################################################
+# hub
+################################################################################
+# These two lines make typing completion work
+fpath=(~/.zsh/completions $fpath)
+autoload -Uz compinit && compinit
+
