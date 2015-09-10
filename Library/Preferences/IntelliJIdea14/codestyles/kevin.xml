@@ -3,7 +3,7 @@
   <ClojureCodeStyleSettings>{
   :cursive.formatting/align-conditionals false
   :cursive.formatting/align-maps false
-  :cursive.formatting/default-only-indent true
+  :cursive.formatting/one-space-lists true
 }</ClojureCodeStyleSettings>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
