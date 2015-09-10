@@ -607,6 +607,7 @@
     <option name="JAVA_KEYWORD">
       <value>
         <option name="FOREGROUND" value="cba1e3" />
+        <option name="BACKGROUND" value="212225" />
       </value>
     </option>
     <option name="JAVA_LINE_COMMENT">
