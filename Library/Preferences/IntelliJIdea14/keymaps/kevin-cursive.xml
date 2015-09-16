@@ -17,9 +17,6 @@
   <action id=":cursive.actions.paredit/barf-forwards">
     <keyboard-shortcut first-keystroke="shift meta J" />
   </action>
-  <action id=":cursive.actions.paredit/close-curly-and-newline">
-    <keyboard-shortcut first-keystroke="shift meta CLOSE_BRACKET" />
-  </action>
   <action id=":cursive.actions.paredit/close-paren-and-newline">
     <keyboard-shortcut first-keystroke="shift meta 0" />
   </action>
@@ -75,7 +72,7 @@
     <keyboard-shortcut first-keystroke="meta alt PERIOD" />
   </action>
   <action id=":cursive.actions.paredit/wrap-curly">
-    <keyboard-shortcut first-keystroke="shift meta OPEN_BRACKET" />
+    <keyboard-shortcut first-keystroke="alt OPEN_BRACKET" />
   </action>
   <action id=":cursive.actions.paredit/wrap-paren">
     <keyboard-shortcut first-keystroke="shift meta 9" />
