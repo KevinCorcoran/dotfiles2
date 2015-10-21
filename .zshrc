@@ -53,12 +53,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 
 ################################################################################
-# ZSH options
-################################################################################
-# Do not share history between open shells - I find it annoying.
-unsetopt share_history
-
-################################################################################
 # hub
 ################################################################################
 # These two lines make typing completion work
