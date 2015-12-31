@@ -1,0 +1,8 @@
+<templateSet group="Clojure">
+  <template name="ppr" value="(clojure.pprint/pprint $expr$)" description="clojure.pprint/pprint" toReformat="false" toShortenFQNames="true">
+    <variable name="expr" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Clojure" value="true" />
+    </context>
+  </template>
+</templateSet>
