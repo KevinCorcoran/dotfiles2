@@ -179,6 +179,9 @@
   <action id="HighlightUsagesInFile">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="shift ctrl back_space" />
+  </action>
   <action id="Leiningen.RefreshProjects">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
