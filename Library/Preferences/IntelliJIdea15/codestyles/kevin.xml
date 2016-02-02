@@ -3,6 +3,7 @@
   <ClojureCodeStyleSettings>{
   :cursive.formatting/align-maps false
   :cursive.formatting/one-space-lists true
+  :puppetlabs.trapperkeeper.core/defservice :only-indent
 }</ClojureCodeStyleSettings>
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
