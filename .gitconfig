@@ -55,6 +55,8 @@ incoming = !tracking=$(git tracking) && git log ..$tracking
 # clones a repo from my Github and sets up a remote to point to the upstream repo
 clone-from-puppetlabs = !sh -c 'bash ~/bin/clone-from-puppetlabs.sh $1' -
 
+# fetches and reset --hard
+sync = !sh -c 'git fetch && git reset --hard @{u}'
 
 [color]
 ui = true
