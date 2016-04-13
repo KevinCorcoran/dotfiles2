@@ -56,7 +56,7 @@ incoming = !tracking=$(git tracking) && git log ..$tracking
 clone-from-puppetlabs = !sh -c 'bash ~/bin/clone-from-puppetlabs.sh $1' -
 
 # fetches and reset --hard
-sync = !sh -c 'git fetch && git reset --hard @{u}'
+sync = !sh -c 'git fetch && git reset --hard @{u} && git submodule update'
 
 [color]
 ui = true
