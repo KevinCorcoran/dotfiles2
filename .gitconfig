@@ -68,6 +68,9 @@ excludesfile = ~/.gitignore_global
 # This prevents git from barfing and losing commit messages when vim exits with a non-zero exit code.
 editor = /usr/bin/vim
 
+# Use diff-so-fancy for diffs (and show)
+pager = diff-so-fancy | less --tabs=4 -RFX
+
 
 [init]
 templatedir = /Users/kevin/.git_template
