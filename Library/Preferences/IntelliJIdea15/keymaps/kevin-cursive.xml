@@ -23,9 +23,6 @@
   <action id=":cursive.actions.paredit/close-paren-and-newline">
     <keyboard-shortcut first-keystroke="shift meta 0" />
   </action>
-  <action id=":cursive.actions.paredit/close-square-and-newline">
-    <keyboard-shortcut first-keystroke="meta close_bracket" />
-  </action>
   <action id=":cursive.actions.paredit/copy-as-kill">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
@@ -83,9 +80,6 @@
   <action id=":cursive.actions.paredit/wrap-quotes">
     <keyboard-shortcut first-keystroke="shift meta quote" />
   </action>
-  <action id=":cursive.actions.paredit/wrap-square">
-    <keyboard-shortcut first-keystroke="meta open_bracket" />
-  </action>
   <action id=":cursive.repl.actions/clear-repl">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
@@ -129,7 +123,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl a" />
   </action>
   <action id="Back">
-    <keyboard-shortcut first-keystroke="meta open_bracket" />
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
@@ -172,7 +165,6 @@
     <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
   <action id="Forward">
-    <keyboard-shortcut first-keystroke="meta close_bracket" />
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="ctrl right" />
   </action>
@@ -226,6 +218,15 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
+  <action id="ResizeToolWindowLeft">
+    <keyboard-shortcut first-keystroke="shift meta left" />
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+  </action>
+  <action id="ResizeToolWindowRight">
+    <keyboard-shortcut first-keystroke="shift meta right" />
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+  </action>
+  <action id="Scala.RunWorksheet" />
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
