@@ -44,6 +44,7 @@ alias be='bundle exec'
 
 export GREP_OPTIONS="-i -I --color=auto --exclude='*.swp'"
 
+export PATH=$PATH:$HOME/bin
 
 ################################################################################
 # rbenv
