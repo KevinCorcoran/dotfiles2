@@ -862,6 +862,7 @@
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
+        <option name="BACKGROUND" value="3c6a35" />
         <option name="EFFECT_COLOR" value="4e7d47" />
         <option name="ERROR_STRIPE_COLOR" value="63915e" />
       </value>
