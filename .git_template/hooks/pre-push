@@ -20,9 +20,10 @@
 remote_name = ARGV[0]
 remote_url = ARGV[1]
 
-my_github_url = "https://github.com/KevinCorcoran"
+my_github_url_http = "https://github.com/KevinCorcoran"
+my_github_url_ssh  = "git@github.com:KevinCorcoran"
 
-unless remote_url.start_with?(my_github_url)
+unless remote_url.start_with?(my_github_url_http) or remote_url.start_with?(my_github_url_ssh)
 	puts "pre-push hook preventing push to remote '#{remote_name}' " +
 	     "because its URL does not start with #{my_github_url}"
 	puts "You can bypass this with 'git push --no-verify'"
