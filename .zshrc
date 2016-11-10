@@ -60,3 +60,13 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 fpath=(~/.zsh/completions $fpath)
 autoload -Uz compinit && compinit
 
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f /Users/kevin/google-cloud-sdk/path.zsh.inc ]; then
+  source '/Users/kevin/google-cloud-sdk/path.zsh.inc'
+fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f /Users/kevin/google-cloud-sdk/completion.zsh.inc ]; then
+  source '/Users/kevin/google-cloud-sdk/completion.zsh.inc'
+fi
