@@ -53,11 +53,6 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="BASH.EXTERNAL_COMMAND">
-      <value />
-    </option>
-    <option name="BASH.FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
-    <option name="BASH.FUNCTION_DEF_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="BASH.HERE_DOC">
       <value />
     </option>
@@ -234,13 +229,6 @@
         <option name="FOREGROUND" value="a5c261" />
       </value>
     </option>
-    <option name="CTRL_CLICKABLE">
-      <value>
-        <option name="FOREGROUND" value="589df6" />
-        <option name="EFFECT_COLOR" value="589df6" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="cc7832" />
@@ -308,11 +296,6 @@
       <value>
         <option name="FOREGROUND" value="9296a0" />
         <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="DEFAULT_CLASS_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="769aa5" />
       </value>
     </option>
     <option name="DEFAULT_CONSTANT">
@@ -392,7 +375,6 @@
       </value>
     </option>
     <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
-    <option name="DEFAULT_STATIC_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="DEFAULT_STRING">
       <value>
         <option name="FOREGROUND" value="f8edb6" />
@@ -492,11 +474,6 @@
     <option name="GRADLE_CHANGE_CONFLICT">
       <value>
         <option name="FOREGROUND" value="db4233" />
-      </value>
-    </option>
-    <option name="HTML_ATTRIBUTE_NAME">
-      <value>
-        <option name="FOREGROUND" value="bababa" />
       </value>
     </option>
     <option name="HTML_COMMENT">
@@ -990,11 +967,6 @@
         <option name="FOREGROUND" value="a53434" />
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_NAME">
-      <value>
-        <option name="FOREGROUND" value="bababa" />
-      </value>
-    </option>
     <option name="XML_ATTRIBUTE_VALUE">
       <value>
         <option name="FOREGROUND" value="f8eeb5" />
@@ -1008,9 +980,6 @@
     </option>
     <option name="XML_PROLOGUE" baseAttributes="TEXT" />
     <option name="XML_TAG">
-      <value />
-    </option>
-    <option name="XML_TAG_DATA">
       <value />
     </option>
     <option name="XPATH.XPATH_NAME">

@@ -144,6 +144,12 @@
   <action id="Editor LRU">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
   </action>
@@ -153,8 +159,14 @@
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
   </action>
+  <action id="EditorScrollDown">
+    <keyboard-shortcut first-keystroke="ctrl meta alt down" />
+  </action>
   <action id="EditorScrollToCenter">
     <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="EditorScrollUp">
+    <keyboard-shortcut first-keystroke="ctrl meta alt up" />
   </action>
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta f12" />
@@ -180,6 +192,7 @@
   </action>
   <action id="GotoPreviousError">
     <keyboard-shortcut first-keystroke="shift alt h" />
+    <keyboard-shortcut first-keystroke="f3" />
   </action>
   <action id="HighlightUsagesInFile">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
@@ -227,6 +240,10 @@
     <keyboard-shortcut first-keystroke="meta close_bracket" />
   </action>
   <action id="Scala.RunWorksheet" />
+  <action id="SelectIn">
+    <keyboard-shortcut first-keystroke="alt f1" />
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+  </action>
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
