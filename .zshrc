@@ -70,3 +70,6 @@ fi
 if [ -f /Users/kevin/google-cloud-sdk/completion.zsh.inc ]; then
   source '/Users/kevin/google-cloud-sdk/completion.zsh.inc'
 fi
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
